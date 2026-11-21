@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>隐私政策 · DSH Health Sync</title>
+<style>
+:root{color-scheme:light dark}
+body{max-width:46rem;margin:0 auto;padding:2.5rem 1.25rem 5rem;font:16px/1.75 -apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:#1f2328;background:#fff}
+@media (prefers-color-scheme:dark){body{color:#e6edf3;background:#0d1117}a{color:#6cb6ff}}
+h1{font-size:1.9rem;margin:0 0 .35rem}
+h2{font-size:1.15rem;margin:2rem 0 .6rem;padding-bottom:.3rem;border-bottom:1px solid #d8dee4}
+@media (prefers-color-scheme:dark){h2{border-color:#30363d}}
+.meta{color:#6a737d;font-size:.9rem;margin-bottom:2rem}
+ul{padding-left:1.3rem}
+li{margin:.25rem 0}
+code{background:#f3f4f6;padding:.1rem .35rem;border-radius:4px;font-size:.9em}
+@media (prefers-color-scheme:dark){code{background:#21262d}}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #d8dee4;font-size:.85rem;color:#6a737d}
+@media (prefers-color-scheme:dark){footer{border-color:#30363d}}
+</style>
+</head>
+<body>
+<h1>隐私政策</h1>
+<p class="meta">最后更新：2026 年 11 月 21 日 · 适用于 DSH Health Sync（com.dsh.healthsync）</p>
+
+<p>本应用是一个运行在用户本人电脑上的个人健康数据同步工具。本政策说明本应用如何处理你的数据。</p>
+
+<h2>一、我们收集哪些数据</h2>
+<p>在你明确授权后，本应用通过华为运动健康服务（Health Service Kit）提供的开放接口，读取以下数据：</p>
+<ul>
+<li>睡眠数据（入睡时间、起床时间、睡眠时长、睡眠分期、睡眠评分）</li>
+<li>心率数据（动态心率、静息心率）</li>
+<li>压力数据（压力评分）</li>
+<li>步数数据（每日步数）</li>
+<li>锻炼记录概要（运动类型、时长）</li>
+</ul>
+<p>本应用<strong>不会</strong>读取你的位置轨迹、通讯录、短信、照片、通话记录或任何与上述无关的信息。</p>
+
+<h2>二、数据存储在哪里</h2>
+<p>所有数据仅保存在<strong>你本人的电脑本地</strong>，具体位置是你电脑上的一个 SQLite 数据库文件（<code>sleep.db</code>）。</p>
+<ul>
+<li>本应用<strong>没有</strong>自有服务器，<strong>不会</strong>把任何数据上传到我们控制的任何地方</li>
+<li>数据<strong>不会</strong>上传到云端、第三方分析平台或广告网络</li>
+<li>数据<strong>不会</strong>出售、出租或以任何形式提供给第三方</li>
+</ul>
+
+<h2>三、数据用于什么</h2>
+<p>数据仅用于在你自己的电脑上生成本地健康台账，供你本人查看自己的作息规律。除此之外没有任何用途。</p>
+
+<h2>四、授权凭据</h2>
+<p>本应用在你授权后会保存一个访问令牌（<code>tokens.json</code>），仅用于代表你向华为服务器请求上述数据。该令牌保存在你电脑本地，你可以随时通过删除该文件撤销本应用的全部访问能力。</p>
+
+<h2>五、你的控制权</h2>
+<ul>
+<li>你可以随时在「华为运动健康」App 的隐私管理中撤销对本应用的授权</li>
+<li>你可以随时删除本地的 <code>sleep.db</code> 与 <code>tokens.json</code>，删除后本应用不再持有任何你的数据</li>
+<li>本应用不提供账号体系，不收集你的姓名、手机号、身份证号等身份信息</li>
+</ul>
+
+<h2>六、数据保留期限</h2>
+<p>数据保留在你电脑上，直到你主动删除。本应用不做自动清理，也不做异地备份。</p>
+
+<h2>七、未成年人</h2>
+<p>本应用不面向未成年人，也不主动收集未成年人的任何信息。</p>
+
+<h2>八、政策变更</h2>
+<p>如本政策发生变更，我们会在本页面更新内容与「最后更新」日期。</p>
+
+<h2>九、联系方式</h2>
+<p>如有疑问，请通过以下方式联系：<a href="mailto:__EMAIL__">__EMAIL__</a></p>
+
+<footer>© 2026 DSH Health Sync · <a href="./terms.html">用户协议</a></footer>
+</body>
+</html>
